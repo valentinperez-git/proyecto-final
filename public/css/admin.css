@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    background-color: #0A9396;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/*navbar navbar navbar */
+.navbar-custom {
+    background-color: #001219;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #E9D8A6; 
+}
+.navbar-brand {
+    color: #0A9396; 
+}
+.navbar-brand:hover {
+    color: #005F73; 
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #94D2BD; 
+}
+
+/* lista lista lista*/
+.text-center{
+    padding: 15px 10px;
+}
+.btn{
+    background-color: #001219;
+}
+.btn:hover{
+    background-color: #005F73;
+}
+
+/* footer footer footer */
+.bg-navbar-color {
+    background-color: #001219; 
+}

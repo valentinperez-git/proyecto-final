@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #CA6702;
+}
+
+/*navbar navbar navbar */
+.navbar-custom {
+    background-color: #001219;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #E9D8A6; 
+}
+.navbar-brand {
+    color: #CA6702; 
+}
+.navbar-brand:hover {
+    color: #BB3E03; 
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #EE9B00; 
+}
+
+/* lista lista lista*/
+#lista-publicaciones{
+    background-color: rgba(238, 155, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+.text-center{
+    padding: 15px 10px;
+}
+.d-flex h4{
+    padding-top: 5px;
+}
+
+/* footer footer footer */
+.bg-navbar-color {
+    background-color: #001219; 
+}
+
+
